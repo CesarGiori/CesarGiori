@@ -1,8 +1,8 @@
 ## Olá, eu sou o Cesar! 👋
 
 - 🔭 Hoje trabalho com vendas especialista em linha pesada diesel
-- 🌱 Aspirante a Engenharia de Software - Unicesumar
-- 📫 Contate-me no email: Cesarlopes269@gmail.com 
+- 🌱 Aspirante a Engenharia de Software
+- 📫 Contate-me no email: cesarlopes269@gmail.com 
 - 😄 Pronomes: Ele/Dele
 
 
@@ -19,7 +19,7 @@
   <img align="center" alt="Rafa-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
   <img align="center" alt="Rafa-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
   <img align="center" alt="Rafa-Python" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
-  <img align="right" alt="The Rock" height="60" width="40" src="./tenor.gif">
+  <img align="right" alt="The Rock" height="100" width="80" src="./tenor.gif">
 </div>
   
   ##
