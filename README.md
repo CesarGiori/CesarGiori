@@ -19,7 +19,7 @@
   <img align="center" alt="Rafa-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
   <img align="center" alt="Rafa-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
   <img align="center" alt="Rafa-Python" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
-  <img align="center" alt="The" height="60" width="80" src="https://media.discordapp.net/attachments/797521486280654851/1516653806996426783/tenor.gif?ex=6a336d6d&is=6a321bed&hm=3a3d9a4c83c1cbd4609e729026ed9eee8716f8e1d3b1bbb797017810cb4a94f5&=&width=403&height=538">
+  <img align="rigth" alt="The Rock" height="60" width="40" src="./tenor.gif">
 </div>
   
   ##
