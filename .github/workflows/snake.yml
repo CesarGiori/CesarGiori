@@ -1,23 +1,33 @@
-name: Generate Datas
+name: Generate Snake
 
 on:
-  schedule: # execute every 12 hours
-    - cron: "* */12 * * *"
+  schedule:
+    - cron: "0 0 * * *"
   workflow_dispatch:
+  push:
+    branches:
+    - main
 
 jobs:
-  build:
-    name: Jobs to update datas
+  generate:
+    permissions: 
+      contents: write
     runs-on: ubuntu-latest
+    timeout-minutes: 5
+    
     steps:
-      # Snake Animation
-      - uses: Platane/snk@master
-        id: snake-gif
+      # Versão atualizada (@v3) que corrige o erro de "Not Found"
+      - name: generate-snake-game-from-github-contribution-grid
+        uses: Platane/snk/svg-only@v3
         with:
-          github_user_name: <cesargiori>
-          svg_out_path: dist/github-contribution-grid-snake.svg
-
-      - uses: crazy-max/ghaction-github-pages@v2.1.3
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+          
+      # Envia os arquivos para a branch 'output'
+      - name: push github-contribution-grid-snake.svg to the output branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
           build_dir: dist
